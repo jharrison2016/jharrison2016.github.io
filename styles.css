@@ -40,6 +40,34 @@ body{
     color: #FFFFFF;
     text-align: center;
 }
+.hero-text.h1{
+    font-weight: 700;
+}
+#hero-change-text {
+    font-weight: 700;
+}
+#hero-change-text:after {
+    content:"";
+    animation: spin 25s linear infinite;
+}
+@keyframes spin {
+    0%  { content:"programmer.";}
+    10% { content:"developer.";}
+    20% { content:"designer.";}
+    30% { content:"problem solver.";}
+    40% { content:"specialist.";}
+    50% { content: "programmer.";}
+    60% { content: "developer.";}
+    70% { content: "designer.";}
+    80% { content: "problem solver.";}
+    90% { content: "specialist.";}
+    100% { content:"programmer.";}
+}
 .hero-spacer{
     height: 275px;
+}
+.coming-soon-section{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
 }
