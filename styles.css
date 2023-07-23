@@ -2,17 +2,25 @@ body{
     background-color: #424242!important;
     font-family: 'Ubuntu', sans-serif;
     color: #FAFAFA;
+    scrollbar-color: dark;
+    /* overflow: hidden; */
 }
 .navBar{
     position:fixed;
     z-index:1;
     top:0;
     width:101%;
+    height: 80px;
     background-color: #212121;
+}
+.navRow{
+    width:100%;
+    height: 54px;
+    padding: 5px;
 }
 .navLogo{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     color: #FAFAFA;
     text-align: left;
@@ -22,12 +30,13 @@ body{
 .navButton{
     font-family: 'Ubuntu', sans-serif;
     color: #FAFAFA;
+    padding: 10px 0px;
     text-align: left;
 }
 .hero-section{
     font-family: 'Ubuntu', sans-serif;
     width: 100%;
-    height: 650px;
+    height: 500px;
     background: linear-gradient(0deg, rgba(97, 97, 97, 0.7), rgba(97, 97, 97, 0.7)), url(images/pexels-pixabay-461064.jpg);
     background-position: center;
     background-size: cover;
@@ -64,10 +73,41 @@ body{
     100% { content:"programmer.";}
 }
 .hero-spacer{
-    height: 275px;
+    height: 215px;
+}
+.about-me-section{
+    background-color: #424242;
+    /* height: 500px; */
+}
+.section-heading{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+}
+.subheading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px!important;
+    color: #FFFFFF;
+    text-align: center;
+}
+.card-row{
+    padding: 0px 50px 25px 50px;
+}
+.card-icon{
+    color: white;
+    text-align: center;
+    display:block!important;
+    font-size: 150px!important;
+}
+.card-text{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
 }
 .coming-soon-section{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
     text-align: center;
+    background-color: #212121;
 }
