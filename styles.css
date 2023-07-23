@@ -1,12 +1,45 @@
+body{
+    background-color: #424242!important;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FAFAFA;
+}
+.navBar{
+    position:fixed;
+    z-index:1;
+    top:0;
+    width:101%;
+    background-color: #212121;
+}
+.navLogo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FAFAFA;
+    text-align: left;
+    padding: 10px 25px;
+    margin: 0px;
+}
+.navButton{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FAFAFA;
+    text-align: left;
+}
 .hero-section{
-    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    width: 105%;
     height: 650px;
-    background: linear-gradient(0deg, rgba(0, 62, 196, 0.3), rgba(0, 62, 196, 0.3)), url(images/pexels-pixabay-461064.jpg);
+    background: linear-gradient(0deg, rgba(97, 97, 97, 0.7), rgba(97, 97, 97, 0.7)), url(images/pexels-pixabay-461064.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: -10px;
+    margin: 0px -10px;
+    padding: 0px;
 }
 .hero-text{
-    padding: 15px 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-spacer{
+    height: 275px;
 }
