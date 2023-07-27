@@ -3,7 +3,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     color: #FAFAFA;
     scrollbar-color: dark;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 a{
     color: #FAFAFA!important;
@@ -85,14 +85,14 @@ a{
 .section-heading{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
-    text-align: center;
-    padding: 25px;
+    text-align: left;
+    padding: 25px 50px!important;
 }
 .subheading{
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px!important;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 .card-row{
     padding: 0px 50px 25px 50px;
@@ -106,7 +106,7 @@ a{
 .card-text{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 .coming-soon-section{
     font-family: 'Ubuntu', sans-serif;
