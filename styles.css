@@ -47,6 +47,12 @@ a{
     margin: 0px;
     padding: 0px;
 }
+.hero-subheading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px!important;
+    color: #FFFFFF;
+    text-align: center;
+}
 .hero-text{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
@@ -96,6 +102,11 @@ a{
 }
 .card-row{
     padding: 0px 50px 25px 50px;
+}
+.about-card{
+    background-color: #616161;
+    border-radius: 16px;
+    padding: 25px!important;
 }
 .card-icon{
     color: white;

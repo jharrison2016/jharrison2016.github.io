@@ -82,6 +82,12 @@ a{
     background-color: #424242;
     /* height: 500px; */
 }
+
+#experience{
+    padding-top: 25px;
+    background-color: #212121;
+}
+
 .section-heading{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
@@ -103,7 +109,16 @@ a{
     /* padding-bottom: 15px; */
 }
 .card-row{
-    padding: 0px 50px 25px 50px;
+    margin-top: 25px;
+    padding: 0px 50px;
+}
+.skills-card{
+    background-color: #616161;
+    border-radius: 16px;
+}
+.exp-card{
+    background-color: #424242;
+    border-radius: 16px;
 }
 .card-icon{
     color: white;
@@ -115,7 +130,7 @@ a{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
     text-align: left;
-    padding: 25px;
+    padding: 25px 35px!important;
 }
 .coming-soon-section{
     font-family: 'Ubuntu', sans-serif;
